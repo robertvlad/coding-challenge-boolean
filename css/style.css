@@ -1,0 +1,72 @@
+/* Generali */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../img/Background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* Header */
+
+.lim-container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.black-square{
+    width: 900px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.title-green{
+    font-size: 25px;
+    color: rgb(0,221,0);
+}
+
+
+/* Navbar */
+
+nav{
+    background-color: rgb(0,221,0);
+    border-radius: 5px;
+}
+
+nav button{
+    border-radius: 3px;
+    padding: 0 5px;
+}
+
+
+/* Main */
+
+main div p{
+    margin: 0;
+}
+
+.charge{
+    border-radius: 5px;
+    text-align: center;
+}
+
+.charge-1{
+    width: 300px;
+    background-color: rgb(245,180,43);
+}
+
+.charge-2{
+    width: 450px;
+    background-color: rgb(30,195,30);
+}
+
+.charge-3{
+    width: 150px;
+    background-color: rgb(190,65,65);
+}
